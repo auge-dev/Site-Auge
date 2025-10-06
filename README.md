@@ -126,4 +126,4 @@ taskkill /PID [número_do_processo] /F
 
 ---
 
-✨ **Desenvolvido para Day Trader AUGE** ✨
+✨ **Desenvolvido por Matheus Leon - Inspire Tech Company** ✨
