@@ -99,8 +99,9 @@ body {
 
 .mentors-together {
     width: 100%;
-    height: 100%;
+    height: 80%;
     object-fit: cover;
+    object-position: center top;
     border-radius: 15px;
     display: block;
     transform: scale(1.4);

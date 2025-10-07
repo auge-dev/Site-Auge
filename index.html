@@ -8,6 +8,16 @@
     <script src="assets/config.js"></script>
     <script src="assets/image-loader.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        // Força o reload da imagem editada
+        window.addEventListener('load', function() {
+            const img = document.getElementById('hero-mentors-img');
+            if (img) {
+                const timestamp = new Date().getTime();
+                img.src = `assets/images/fotojuntosnova.png?v=${timestamp}`;
+            }
+        });
+    </script>
 </head>
 <body>
     <!-- Hero Section -->
@@ -62,7 +72,7 @@
             
             <div class="hero-image">
                 <div class="mentors-photo">
-                    <img id="hero-mentors-img" src="assets/images/fotojuntos.jpg" alt="Rafael e Daniel - Mentores AUGE" class="mentors-together" loading="eager">
+                    <img id="hero-mentors-img" src="assets/images/fotojuntosnova.png" alt="Rafael e Daniel - Mentores AUGE" class="mentors-together" loading="eager">
                     
                     <!-- Floating Elements -->
                     <div class="floating-element floating-1">💹 TRADER</div>
@@ -124,7 +134,7 @@
                             </div>
                             <div class="benefit-item">
                                 <span class="benefit-check">✨</span>
-                                <span>E-book "Psicologia do Trading Feminino"</span>
+                                <span>Material de Apoio</span>
                             </div>
                             <div class="benefit-item">
                                 <span class="benefit-check">✨</span>
@@ -132,7 +142,7 @@
                             </div>
                             <div class="benefit-item">
                                 <span class="benefit-check">✨</span>
-                                <span>Cupom "OUTUBRO ROSA" - 20% OFF</span>
+                                <span>Cupom "OUTUBROROSA" - 20% OFF</span>
                             </div>
                         </div>
                         
@@ -147,7 +157,7 @@
                         </div>
                         
                         <a href="https://pay.kiwify.com.br/oBuEYOG" target="_blank" class="outubro-rosa-cta">
-                            💪 QUERO MINHA INDEPENDÊNCIA FINANCEIRA
+                            💪 QUERO FAZER PARTE DA AUGE
                         </a>
                         
                         <div class="offer-timer">
@@ -160,9 +170,11 @@
             <div class="women-testimonial">
                 <div class="testimonial-content">
                     <blockquote>
-                        "O trading me deu a liberdade que eu sempre sonhei. Hoje posso cuidar da minha família e ainda construir meu patrimônio. A estratégia da AUGE mudou minha vida!"
+                        "Bom dia! Operação de hoje atingiu o 3º alvo de fibo!
+Gratidão à Auge Traders pelo trabalho sério e acompanhamento.
+50% da mentoria paga só com a Operação de hoje."
                     </blockquote>
-                    <cite>- Maria Silva, Trader AUGE</cite>
+                    <cite>- Kleber | Mentorado</cite>
                 </div>
             </div>
         </div>
@@ -461,7 +473,7 @@
                 <div class="mentor-card">
                     <div class="mentor-card-header">
                         <div class="mentor-avatar">
-                            <img src="assets/images/Rafael.jpg" alt="Rafael Cardoso" loading="lazy">
+                            <img src="assets/images/FotoRafael.png" alt="Rafael Cardoso" loading="lazy">
                             <div class="mentor-status">🟢 Online</div>
                         </div>
                         <div class="mentor-basic-info">
@@ -493,7 +505,7 @@
                 <div class="mentor-card">
                     <div class="mentor-card-header">
                         <div class="mentor-avatar">
-                            <img src="assets/images/Daniel.jpg" alt="Daniel Filho" loading="lazy">
+                            <img src="assets/images/FotoDaniel.png" alt="Daniel Filho" loading="lazy">
                             <div class="mentor-status">🟢 Online</div>
                         </div>
                         <div class="mentor-basic-info">

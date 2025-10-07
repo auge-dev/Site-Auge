@@ -7,8 +7,8 @@ const ASSETS_CONFIG = {
     LOGO_AUGE: './assets/images/Logo_augesemfundo.jpg', // Logo oficial AUGE
     
     // Imagens dos mentores
-    MENTOR_RAFAEL: './assets/images/Rafael.jpg',
-    MENTOR_DANIEL: './assets/images/Daniel.jpg',
+    MENTOR_RAFAEL: './assets/images/FotoRafael.png',
+    MENTOR_DANIEL: './assets/images/FotoDaniel.png',
     
     // Imagens dos módulos
     MODULO_1: './assets/images/1.jpg', // Capa do Módulo 1
@@ -21,7 +21,7 @@ const ASSETS_CONFIG = {
     COMPUTERS_BG: './computers-bg.svg', // Manter na raiz por enquanto
     
     // Outras imagens utilizadas
-    HERO_MENTORS: './assets/images/fotojuntos.jpg', // Foto dos mentores juntos na seção hero
+    HERO_MENTORS: './assets/images/fotojuntosnova.png', // Foto dos mentores juntos na seção hero
     
     // Função helper para obter caminho completo
     getImagePath: function(imageName) {
